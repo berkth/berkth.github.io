@@ -3,7 +3,7 @@ function updateVP (){
 		var button = document.getElementById("vp");
 		button.value= "Valuepack no Activado";
 		button.style.color = '#ffffff';
-		button.style.background ='#00ff00';
+		button.style.background ='#ea4f36';
 		button.style.backgroundImage = "url(https://berkth.github.io/img/vp-off.png)";
 		button.style.backgroundRepeat = "no-repeat";
 	}
