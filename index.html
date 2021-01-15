@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calculadora BDO</title>
+<meta name="Calculadora BDO" content="Calculadora para el profit del mercado con o sin valuepack">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="main.css" rel="stylesheet">
+<script language="javascript" type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<form>
+<div id="wb_text">
+<span id="text1">Aplicación para calcular el Profit de ventas en el Mercado</span>
+<br>
+<br>
+<span id="text2">Para calcular cuánto recibirás si el artículo se vende sin pre-order, rellenar la casilla "pre-order" con un 0.</span>
+</div>
+<div class="col-1">
+<input type="number" id="AmountValue" value="" spellcheck="false" placeholder="Cantidad"></input>
+<input type="number" id="RegItemValue" value="" spellcheck="false" placeholder="Precio"></input>
+<input type="number" id="PreOrderValue" value="" spellcheck="false" placeholder="Pre-order"></input>
+</div>
+</br>
+<div class="col-2">
+<input type="reset" id="reset" value="Reset">
+<input type="button" id="vp" value="Valuepack Activado" onclick="updateVP()">
+<input type="button" id="calc" onclick="calculate()" name="" value="Calcular">
+</div>
+</br>
+<div class="col-3">
+<label type="number" id="profit"></label>
+</br>
+</br>
+<label type="number" id="result"></label>
+</div>
+<div id="owned_text">
+<span id="text3">Design by RisingValhalla ©</span>
+</div>
+</form>
+</body>
+</html>
