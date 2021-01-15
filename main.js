@@ -4,7 +4,7 @@ function updateVP (){
 		button.value= "Valuepack no Activado";
 		button.style.color = '#ffffff';
 		button.style.background ='#00ff00';
-		button.style.backgroundImage = "url(https://i.imgur.com/jygdb17.png)";
+		button.style.backgroundImage = "url(https://berkth.github.io/img/vp-off.png)";
 		button.style.backgroundRepeat = "no-repeat";
 	}
 	else {
@@ -12,7 +12,7 @@ function updateVP (){
 		button.value= "Valuepack Activado";
 		button.style.color = '#000000';
 		button.style.background ='#00ff00';
-		button.style.backgroundImage = "url(https://i.imgur.com/jmj7AYW.png)";
+		button.style.backgroundImage = "url(https://berkth.github.io/img/vp-on.png)";
 		button.style.backgroundRepeat = "no-repeat";
 	}
 }

@@ -165,7 +165,6 @@ input#vp {
 	border: 1px #000000 solid;
 	border-radius: 4px;
 	background-color: #00FF00;
-	background-image: url(http://i68.tinypic.com/2nv9y5l.png);
 	background-repeat: no-repeat;
 	color: #000000;
 	font-family: Arial;
@@ -243,4 +242,5 @@ input#calc:focus {
    font-family: Arial;
    font-size: 12px;
    font-style: italic;
+   margin-top: 50px;
 }
